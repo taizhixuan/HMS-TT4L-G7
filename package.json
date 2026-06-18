@@ -1,0 +1,22 @@
+{
+  "name": "hms-cypress-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress end-to-end tests for the Hospital Management System (CSE6324 Assignment 2, Group 7 TT4L).",
+  "scripts": {
+    "cypress:open": "cypress open --browser chrome",
+    "cypress:run": "cypress run --browser chrome",
+    "test:registration": "cypress run --browser chrome --spec cypress/e2e/01_registration.cy.js",
+    "test:patient-login": "cypress run --browser chrome --spec cypress/e2e/02_patient-login.cy.js",
+    "test:doctor-login": "cypress run --browser chrome --spec cypress/e2e/03_doctor-login.cy.js",
+    "test:appointment": "cypress run --browser chrome --spec cypress/e2e/04_appointment.cy.js",
+    "test:dashboard": "cypress run --browser chrome --spec cypress/e2e/05_dashboard.cy.js",
+    "test:ui": "cypress run --browser chrome --spec cypress/e2e/06_ui-interaction.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
