@@ -1,0 +1,32 @@
+{
+  "validPatient": {
+    "fname": "test",
+    "lname": "temp",
+    "gender": "Male",
+    "email": "kenny@gmail.com",
+    "contact": "0123456789",
+    "password": "kenny123",
+    "cpassword": "kenny123"
+  },
+  "invalidPatient": {
+    "email": "wrong@gmail.com",
+    "password": "wrongpass"
+  },
+  "validDoctor": {
+    "username": "doctor1",
+    "password": "doc123",
+    "spec": "General"
+  },
+  "invalidDoctor": {
+    "username": "wrongdoctor",
+    "password": "wrongpass"
+  },
+  "appointmentSlots": ["08:00:00", "10:00:00", "12:00:00", "14:00:00", "16:00:00"],
+  "contactSamples": {
+    "empty": "",
+    "tooShort5": "01234",
+    "tooShort9": "012345678",
+    "valid10": "0123456789",
+    "tooLong11": "01234567891"
+  }
+}
